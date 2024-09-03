@@ -27,7 +27,7 @@ jobs:
 
       # Automatically commits the generated snake to the repo
       - name: Commit and push snake animation
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v3
         with:
           commit_message: "Generated snake animation"
           file_pattern: dist/*
