@@ -22,7 +22,7 @@ jobs:
       - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
-          github_user_name: your-username  # Replace 'your-username' with your GitHub username
+          github_user_name: imishangrover  # Replace 'your-username' with your GitHub username
           svg_out_path: dist/github-contribution-grid-snake.svg
 
       # Automatically commits the generated snake to the repo
